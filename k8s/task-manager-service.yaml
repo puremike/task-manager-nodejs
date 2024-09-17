@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: task-manager
+  namespace: task-manager
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/instance: task-manager
+  ports:
+    - port: 5500
+      targetPort: 5500
