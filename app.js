@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const app = express();
 const errorHandler = require('./middlewares/task-error-handler');
 
@@ -9,7 +10,7 @@ const notFoundPage = require('./middlewares/notfoundpage');
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('./public'));
+app.use(express.static(path.join(__dirname, '/public')));
 // Routes
 app.use('/api/v1/tasks', tasks);
 app.use(notFoundPage);
