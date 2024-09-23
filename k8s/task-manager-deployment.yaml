@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: task-manager
-          image: scophee/taskapi:1.0.0
+          image: scophee/taskapi:1.1.0
           resources:
             limits:
               memory: '128Mi'
