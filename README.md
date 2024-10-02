@@ -7,9 +7,9 @@ A simple task manager application built with HTML, Node.js and MongoDB. This app
 - [Features](#Features)
 - [Technologies](#Technologies)
 - [Installation](#Installation)
-- [API Endpoints](#APIEndpoints)
-- [Example Task Object](#ExampleTaskObject)
-- [Running Test](#RunningTest)
+- [API Endpoints](#API Endpoints)
+- [Example Task Object](#Example TaskObject)
+- [Running Test](#Running Test)
 - [License](#License)
 
 ## Features
@@ -87,7 +87,7 @@ To run tests, you can add a testing framework like Jest or Mocha. Follow the ste
    `npm install --save-dev jest`
 
 2. Add your tests in the package.json script:
-   `"test": "jest",
+   `"test": "jest"`,
 
 3. Start the test:
    `npm test`
