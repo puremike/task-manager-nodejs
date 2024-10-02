@@ -7,9 +7,9 @@ A simple task manager application built with HTML, Node.js and MongoDB. This app
 - [Features](#Features)
 - [Technologies](#Technologies)
 - [Installation](#Installation)
-- [API Endpoints](#API Endpoints)
-- [Example Task Object](#Example TaskObject)
-- [Running Test](#Running Test)
+- [API Endpoints](#API-Endpoints)
+- [Example Task Object](#Example-Task-Object)
+- [Running Test](#Running-Test)
 - [License](#License)
 
 ## Features
@@ -60,7 +60,7 @@ A simple task manager application built with HTML, Node.js and MongoDB. This app
 
    The server will run on `http://localhost:5500`.
 
-## API Endpoints
+## API-Endpoints
 
 | Method | Endpoint     | Description             |
 | ------ | ------------ | ----------------------- |
@@ -70,7 +70,7 @@ A simple task manager application built with HTML, Node.js and MongoDB. This app
 | PATCH  | `/tasks/:id` | Update an existing task |
 | DELETE | `/tasks/:id` | Delete a task by ID     |
 
-## Example Task Object
+## Example-Task-Object
 
 ```json
 {
@@ -79,7 +79,7 @@ A simple task manager application built with HTML, Node.js and MongoDB. This app
 }
 ```
 
-## Running Test
+## Running-Test
 
 To run tests, you can add a testing framework like Jest or Mocha. Follow the steps below for setting up tests:
 
